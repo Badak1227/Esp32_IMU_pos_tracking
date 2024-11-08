@@ -1,3 +1,4 @@
+//왜 안됭
 #include <stdio.h>
 #include <math.h>
 #include "driver/i2c.h"
@@ -195,7 +196,7 @@ void app_main(void) {
     float accel[3];
     float gyro[3];
     float mag[3];
-
+    
     float pos_x = 0, pos_y = 0, pos_z = 0;
     float vel_x = 0, vel_y = 0, vel_z = 0;
 
